@@ -6,7 +6,7 @@
 
 </div>
 
-AMSimulator is an application of the phase field method for the additive manufacturing simulation. The example app is developed for the high Performance Fortran implementation with standard language parallelism. For details please see the work. 
+AMSimulator is an application of the phase field method for additive manufacturing simulation. The example app is developed for the high-Performance Fortran implementation with standard language parallelism. For details please see the work. 
 
 [High Performance Additive Manufacturing Phase Field Simulation: Fortran Do Concurrent vs OpenMP](https://www.sciencedirect.com/science/article/pii/S0927025625001314)
 
@@ -39,7 +39,7 @@ languages
 ```
 
 ## legacyToModernFortran
-This folder shows the use of Fortran standard to write the code in serial and parallel.
+This folder shows the use of the Fortran standards to write the code in serial and parallel.
 
 ```
 legacyToModernFortran
