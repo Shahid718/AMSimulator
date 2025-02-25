@@ -1,0 +1,13 @@
+# ====================
+# To compile and run in serial
+# ====================
+
+ifort main_omp.f90
+main_omp
+
+# =====================
+# To compile and run in parallel
+# =====================
+
+ifort main_omp.f90 /Qopenmp /F50000000 
+main_omp

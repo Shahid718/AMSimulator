@@ -1,0 +1,6 @@
+# =============
+# Compile and run
+# =============
+
+ifort main77.F
+main77

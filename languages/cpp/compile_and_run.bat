@@ -1,0 +1,2 @@
+icx main.cpp
+main

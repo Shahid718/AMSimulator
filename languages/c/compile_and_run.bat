@@ -1,0 +1,2 @@
+icx main.c
+main

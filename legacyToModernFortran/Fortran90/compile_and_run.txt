@@ -1,0 +1,6 @@
+# =============
+# Compile and run
+# =============
+
+ifort main90.f90
+main90
