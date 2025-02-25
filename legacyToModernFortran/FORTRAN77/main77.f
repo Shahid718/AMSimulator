@@ -1,5 +1,4 @@
 C     declare data      
-!      implicit double precision (A-H,O-Z)
       parameter ( Nx = 400, Ny = 400 )
       dimension T(Nx,Ny),Tnew(Nx,Ny),T_lap(Nx,Ny),p_lap(Nx,Ny),a(Nx,Ny)
       dimension p(Nx,Ny),pnew(Nx,Ny),pdx(Nx,Ny),pdy(Nx,Ny),da(Nx,Ny)      
@@ -99,13 +98,4 @@ C       update fields
 C     get the end time
       call cpu_time (t2)
       print*, " time", (t2 - t1), " seconds"
-      
-      open ( 1, file = "phi.dat" )        
-        do i = 1, Nx
-            write( 1, 100 ) ( p(i,j),j = 1, Ny )
-        end do
-100   FORMAT(1000000F10.6)
-        
-      close( 1 )
-
       end
