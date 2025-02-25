@@ -54,7 +54,7 @@ The folder will contain the simulator.
 
 ## plotting
 
-The plotting directory shows the use of dislin graphical library to plot bar charts and line graphs. The example code looks like
+The plotting directory shows the use of dislin graphical library to plot bar charts and line graphs. The example looks like
 
 ![Output](images/threads.PNG)
 
