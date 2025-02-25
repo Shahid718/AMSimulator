@@ -50,7 +50,7 @@ legacyToModernFortran
 ```
 
 ## simulator
-The folder contains the simulator. 
+The folder will contain the simulator. 
 
 ## plotting
 
