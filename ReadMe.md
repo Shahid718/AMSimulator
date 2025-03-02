@@ -10,6 +10,7 @@ AMSimulator is an application of the phase field method for additive manufacturi
 
 [High Performance Additive Manufacturing Phase Field Simulation: Fortran Do Concurrent vs OpenMP](https://www.sciencedirect.com/science/article/pii/S0927025625001314)
 
+100 lines of code as a code development benchmark.
 
 # **dependencies**
 
