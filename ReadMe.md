@@ -196,7 +196,7 @@ Timing output (wall-clock seconds for the time-stepping loop) and compiler/build
 
 
 
-# **directory structure**
+# **Directory structure**
 
 The structure of the repository is
 ```
@@ -229,10 +229,10 @@ legacyToModernFortran
 └── OpenMP
 ```
 
-## simulator
+## Simulator
 The folder contains the simulator. 
 
-## plotting
+## Plotting
 
 The plotting directory shows the use of dislin graphical library to plot bar charts and line graphs. The example looks like
 
